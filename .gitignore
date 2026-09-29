@@ -1,0 +1,33 @@
+# Source data. Not committed: 3.5 GB, and it is public anyway. Every file is
+# recorded in data/manifest/ with its download URL, byte size, row count and
+# SHA-256, so anyone can fetch the exact same bytes and verify them.
+data/raw/
+data/bronze/
+data/derived/
+data/database/
+data/Award/
+data/governance/
+
+# Reference data: keep the two tables built for this project, skip the
+# downloaded copies of official documents and the generated embedding index.
+data/reference/*
+!data/reference/trade_agreement_thresholds.csv
+!data/reference/country_canonical_map.csv
+
+# Interview material. Deliberately excluded from a public repository.
+deck/
+
+# Derived AWS output. The run evidence in artifacts/aws/*.json is kept;
+# the Parquet it produced is not.
+artifacts/aws/s3_output/
+
+# Superseded
+CanadaBuys_Interview_Deck.pptx
+
+# Local noise
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+*.part
+.venv/

@@ -1,0 +1,28 @@
+batch_id: canadabuys_contract_history_20260828_002
+status: second_batch_drift_test
+retrieved_at: "2026-09-22T11:50:00-07:00"
+source_dataset:
+  title: CanadaBuys contract history
+  metadata_url: https://open.canada.ca/data/en/dataset/4fe645a1-ffcd-40c1-9385-2c771be956a4
+
+resources:
+  - source_id: legacy_contract_history
+    url: https://canadabuys.canada.ca/opendata/pub/2009-2023-contractHistoryHistorical-contratsOctroyesHistorique.csv
+    local_path: data/raw/batch002/legacy/contract_history_2009_2023_05.csv
+    bytes: 832626178
+    parser_records: 485813
+    columns: 91
+    sha256: 55b838379c9616c836e85d4cca336232fdaef190adf4544273b707192316e47e
+    http_last_modified: "Fri, 28 Aug 2026 13:10:46 GMT"
+    http_etag: "0x8DF0505C5FED95D"
+    integrity_status: passed
+  - source_id: current_contract_history
+    url: https://canadabuys.canada.ca/opendata/pub/contractHistoryComplete-contratsOctroyesComplet.csv
+    local_path: data/raw/batch002/current/contract_history_2023_06_present.csv
+    bytes: 57669819
+    parser_records: 21890
+    columns: 91
+    sha256: 1d6c1725a400f51d2a00a15007359399ca5fe59717de9cba5e7be85b9315e11c
+    http_last_modified: "Fri, 28 Aug 2026 12:31:43 GMT"
+    http_etag: "0x8DF0500517BF48F"
+    integrity_status: passed

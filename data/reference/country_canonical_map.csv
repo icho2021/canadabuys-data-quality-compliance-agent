@@ -1,0 +1,21 @@
+observed_value,canonical_value,basis,note
+CA,Canada,iso_3166_alpha2,Observed 34135 times alongside 423432 uses of the full name
+US,United States,iso_3166_alpha2,Observed 2415 times alongside 34976 uses of the full name
+GB,United Kingdom,iso_3166_alpha2,Observed 269 times alongside 2805 uses of the full name
+DE,Germany,iso_3166_alpha2,Observed 104 times alongside 3433 uses of the full name
+FR,France,iso_3166_alpha2,
+NL,Netherlands,iso_3166_alpha2,
+IE,Ireland,iso_3166_alpha2,
+AU,Australia,iso_3166_alpha2,
+NO,Norway,iso_3166_alpha2,
+IL,Israel,iso_3166_alpha2,
+ES,Spain,iso_3166_alpha2,
+SE,Sweden,iso_3166_alpha2,
+BE,Belgium,iso_3166_alpha2,
+CH,Switzerland,iso_3166_alpha2,
+DK,Denmark,iso_3166_alpha2,
+IT,Italy,iso_3166_alpha2,
+CN,China,iso_3166_alpha2,
+JP,Japan,iso_3166_alpha2,
+KR,Korea Republic of,iso_3166_alpha2,Canonical form not yet confirmed against source usage
+IN,India,iso_3166_alpha2,

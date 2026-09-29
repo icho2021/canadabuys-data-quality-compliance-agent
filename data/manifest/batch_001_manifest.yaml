@@ -1,0 +1,55 @@
+batch_id: canadabuys_contract_history_20260822_001
+status: core_csv_verified_reference_pending
+retrieved_at: "2026-08-22T21:24:41-07:00"
+source_dataset:
+  title: CanadaBuys contract history
+  metadata_url: https://open.canada.ca/data/en/dataset/4fe645a1-ffcd-40c1-9385-2c771be956a4
+
+resources:
+  - source_id: legacy_contract_history
+    coverage: 2009-01_to_2023-05
+    url: https://canadabuys.canada.ca/opendata/pub/2009-2023-contractHistoryHistorical-contratsOctroyesHistorique.csv
+    local_path: data/raw/legacy/contract_history_2009_2023_05.csv
+    bytes: 831970335
+    parser_records: 485573
+    columns: 91
+    sha256: 82200829b19449ca20dc56d1391bd08f03828aab47f2436592790118e6dd4def
+    http_last_modified: "Tue, 28 Jul 2026 13:10:15 GMT"
+    http_etag: "0x8DEECA990DAFCD0"
+    http_content_md5: "0U73rERf1khC+SPYmNo5Kw=="
+    integrity_status: passed
+
+  - source_id: current_contract_history
+    coverage: 2023-06-01_to_present
+    url: https://canadabuys.canada.ca/opendata/pub/contractHistoryComplete-contratsOctroyesComplet.csv
+    local_path: data/raw/current/contract_history_2023_06_present.csv
+    bytes: 55853902
+    parser_records: 21274
+    columns: 91
+    sha256: 14792cd0437074b2868d02489bba3122544ada14152ba74930d506764caf7693
+    http_last_modified: "Tue, 28 Jul 2026 12:31:25 GMT"
+    http_etag: "0x8DEECA423A52A29"
+    http_content_md5: "dQkwfHXpCztQXFQ9NaJS+w=="
+    integrity_status: passed
+
+  - source_id: canadabuys_data_dictionary
+    url: https://donnees-data.tpsgc-pwgsc.gc.ca/ba2/ac-cb/achatscanada-canadabuys-dd.xml
+    local_path: data/reference/achatscanada-canadabuys-dd.xml
+    integrity_status: pending_tls_verified_download
+
+  - source_id: contract_history_supporting_documentation
+    url: https://donnees-data.tpsgc-pwgsc.gc.ca/ba2/ac-cb/COsoutien-CHsupport-eng.html
+    local_path: data/reference/COsoutien-CHsupport-eng.html
+    integrity_status: pending_tls_verified_download
+
+validation:
+  headers_identical_across_csvs: true
+  expected_columns: 91
+  all_records_have_expected_width: true
+  total_parser_records: 506847
+  total_csv_bytes: 887824237
+
+gate:
+  core_csv_acquisition: passed
+  companion_reference_snapshot: pending
+  phase_1_source_acquisition: not_yet_complete

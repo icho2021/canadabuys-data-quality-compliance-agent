@@ -1,0 +1,109 @@
+agreement_code,agreement_token,effective_from,effective_to,category,threshold_cad,entity_type,source_notice
+CFTA,*Canadian Free Trade Agreement (CFTA),2022-01-01,2023-12-31,goods,30300,federal_entity,CPN 2021-6
+CFTA,*Canadian Free Trade Agreement (CFTA),2022-01-01,2023-12-31,services,121200,federal_entity,CPN 2021-6
+CFTA,*Canadian Free Trade Agreement (CFTA),2022-01-01,2023-12-31,construction,121200,federal_entity,CPN 2021-6
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2022-01-01,2023-12-31,goods,120400,federal_entity,CPN 2021-6
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2022-01-01,2023-12-31,services,120400,federal_entity,CPN 2021-6
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2022-01-01,2023-12-31,goods,238400,federal_entity,CPN 2021-6
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2022-01-01,2023-12-31,services,238400,federal_entity,CPN 2021-6
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CCoFTA,*Canada-Colombia Free Trade Agreement,2022-01-01,2023-12-31,goods,120400,federal_entity,CPN 2021-6
+CCoFTA,*Canada-Colombia Free Trade Agreement,2022-01-01,2023-12-31,services,120400,federal_entity,CPN 2021-6
+CCoFTA,*Canada-Colombia Free Trade Agreement,2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2022-01-01,2023-12-31,goods,238400,federal_entity,CPN 2021-6
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2022-01-01,2023-12-31,services,238400,federal_entity,CPN 2021-6
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CHFTA,*Canada-Honduras Free Trade Agreement,2022-01-01,2023-12-31,goods,120400,federal_entity,CPN 2021-6
+CHFTA,*Canada-Honduras Free Trade Agreement,2022-01-01,2023-12-31,services,120400,federal_entity,CPN 2021-6
+CHFTA,*Canada-Honduras Free Trade Agreement,2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2022-01-01,2023-12-31,goods,100000,federal_entity,CPN 2021-6
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2022-01-01,2023-12-31,services,100000,federal_entity,CPN 2021-6
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CPaFTA,*Canada-Panama Free Trade Agreement,2022-01-01,2023-12-31,goods,120400,federal_entity,CPN 2021-6
+CPaFTA,*Canada-Panama Free Trade Agreement,2022-01-01,2023-12-31,services,120400,federal_entity,CPN 2021-6
+CPaFTA,*Canada-Panama Free Trade Agreement,2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2022-01-01,2023-12-31,goods,174200,federal_entity,CPN 2021-6
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2022-01-01,2023-12-31,services,174200,federal_entity,CPN 2021-6
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2022-01-01,2023-12-31,goods,238400,federal_entity,CPN 2021-6
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2022-01-01,2023-12-31,services,238400,federal_entity,CPN 2021-6
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2022-01-01,2023-12-31,goods,238400,federal_entity,CPN 2021-6
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2022-01-01,2023-12-31,services,238400,federal_entity,CPN 2021-6
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2022-01-01,2023-12-31,goods,238400,federal_entity,CPN 2021-6
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2022-01-01,2023-12-31,services,238400,federal_entity,CPN 2021-6
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2022-01-01,2023-12-31,construction,9100000,federal_entity,CPN 2021-6
+CFTA,*Canadian Free Trade Agreement (CFTA),2024-01-01,2025-12-31,goods,33400,federal_entity,CPN 2023-6
+CFTA,*Canadian Free Trade Agreement (CFTA),2024-01-01,2025-12-31,services,133800,federal_entity,CPN 2023-6
+CFTA,*Canadian Free Trade Agreement (CFTA),2024-01-01,2025-12-31,construction,133800,federal_entity,CPN 2023-6
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2024-01-01,2025-12-31,goods,134300,federal_entity,CPN 2023-6
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2024-01-01,2025-12-31,services,134300,federal_entity,CPN 2023-6
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2024-01-01,2025-12-31,goods,229600,federal_entity,CPN 2023-6
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2024-01-01,2025-12-31,services,229600,federal_entity,CPN 2023-6
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CCoFTA,*Canada-Colombia Free Trade Agreement,2024-01-01,2025-12-31,goods,134300,federal_entity,CPN 2023-6
+CCoFTA,*Canada-Colombia Free Trade Agreement,2024-01-01,2025-12-31,services,134300,federal_entity,CPN 2023-6
+CCoFTA,*Canada-Colombia Free Trade Agreement,2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2024-01-01,2025-12-31,goods,229600,federal_entity,CPN 2023-6
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2024-01-01,2025-12-31,services,229600,federal_entity,CPN 2023-6
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CHFTA,*Canada-Honduras Free Trade Agreement,2024-01-01,2025-12-31,goods,134300,federal_entity,CPN 2023-6
+CHFTA,*Canada-Honduras Free Trade Agreement,2024-01-01,2025-12-31,services,134300,federal_entity,CPN 2023-6
+CHFTA,*Canada-Honduras Free Trade Agreement,2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2024-01-01,2025-12-31,goods,100000,federal_entity,CPN 2023-6
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2024-01-01,2025-12-31,services,100000,federal_entity,CPN 2023-6
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CPaFTA,*Canada-Panama Free Trade Agreement,2024-01-01,2025-12-31,goods,134300,federal_entity,CPN 2023-6
+CPaFTA,*Canada-Panama Free Trade Agreement,2024-01-01,2025-12-31,services,134300,federal_entity,CPN 2023-6
+CPaFTA,*Canada-Panama Free Trade Agreement,2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2024-01-01,2025-12-31,goods,167800,federal_entity,CPN 2023-6
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2024-01-01,2025-12-31,services,167800,federal_entity,CPN 2023-6
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2024-01-01,2025-12-31,goods,229600,federal_entity,CPN 2023-6
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2024-01-01,2025-12-31,services,229600,federal_entity,CPN 2023-6
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2024-01-01,2025-12-31,goods,229600,federal_entity,CPN 2023-6
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2024-01-01,2025-12-31,services,229600,federal_entity,CPN 2023-6
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2024-01-01,2025-12-31,goods,229600,federal_entity,CPN 2023-6
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2024-01-01,2025-12-31,services,229600,federal_entity,CPN 2023-6
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2024-01-01,2025-12-31,construction,8800000,federal_entity,CPN 2023-6
+CFTA,*Canadian Free Trade Agreement (CFTA),2026-01-01,2027-12-31,goods,34700,federal_entity,CPN 2025-8
+CFTA,*Canadian Free Trade Agreement (CFTA),2026-01-01,2027-12-31,services,139000,federal_entity,CPN 2025-8
+CFTA,*Canadian Free Trade Agreement (CFTA),2026-01-01,2027-12-31,construction,139000,federal_entity,CPN 2025-8
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2026-01-01,2027-12-31,goods,145900,federal_entity,CPN 2025-8
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2026-01-01,2027-12-31,services,145900,federal_entity,CPN 2025-8
+CCFTA,*Canada-Chile Free Trade Agreement (CCFTA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2026-01-01,2027-12-31,goods,239200,federal_entity,CPN 2025-8
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2026-01-01,2027-12-31,services,239200,federal_entity,CPN 2025-8
+CPTPP,*Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CCoFTA,*Canada-Colombia Free Trade Agreement,2026-01-01,2027-12-31,goods,145900,federal_entity,CPN 2025-8
+CCoFTA,*Canada-Colombia Free Trade Agreement,2026-01-01,2027-12-31,services,145900,federal_entity,CPN 2025-8
+CCoFTA,*Canada-Colombia Free Trade Agreement,2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2026-01-01,2027-12-31,goods,239200,federal_entity,CPN 2025-8
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2026-01-01,2027-12-31,services,239200,federal_entity,CPN 2025-8
+CETA,*Canada-European Union Comprehensive Economic and Trade Agreement (CETA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CHFTA,*Canada-Honduras Free Trade Agreement,2026-01-01,2027-12-31,goods,145900,federal_entity,CPN 2025-8
+CHFTA,*Canada-Honduras Free Trade Agreement,2026-01-01,2027-12-31,services,145900,federal_entity,CPN 2025-8
+CHFTA,*Canada-Honduras Free Trade Agreement,2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2026-01-01,2027-12-31,goods,100000,federal_entity,CPN 2025-8
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2026-01-01,2027-12-31,services,100000,federal_entity,CPN 2025-8
+CKFTA,*Canada-Korea Free Trade Agreement (CKFTA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CPaFTA,*Canada-Panama Free Trade Agreement,2026-01-01,2027-12-31,goods,145900,federal_entity,CPN 2025-8
+CPaFTA,*Canada-Panama Free Trade Agreement,2026-01-01,2027-12-31,services,145900,federal_entity,CPN 2025-8
+CPaFTA,*Canada-Panama Free Trade Agreement,2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2026-01-01,2027-12-31,goods,174800,federal_entity,CPN 2025-8
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2026-01-01,2027-12-31,services,174800,federal_entity,CPN 2025-8
+CPFTA,*Canada-Peru Free Trade Agreement (CPFTA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2026-01-01,2027-12-31,goods,239200,federal_entity,CPN 2025-8
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2026-01-01,2027-12-31,services,239200,federal_entity,CPN 2025-8
+CUFTA,*Canada-Ukraine Free Trade Agreement (CUFTA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2026-01-01,2027-12-31,goods,239200,federal_entity,CPN 2025-8
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2026-01-01,2027-12-31,services,239200,federal_entity,CPN 2025-8
+WTO-GPA,*World Trade Organization Agreement on Government Procurement (WTO GPA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2026-01-01,2027-12-31,goods,239200,federal_entity,CPN 2025-8
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2026-01-01,2027-12-31,services,239200,federal_entity,CPN 2025-8
+CA-UK-TCA,*Canada-UK Trade Continuity Agreement (Canada-UK TCA),2026-01-01,2027-12-31,construction,9200000,federal_entity,CPN 2025-8

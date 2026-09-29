@@ -1,0 +1,78 @@
+{
+  "batch_id": "canadabuys_contract_history_20260822_001",
+  "source_scope": "CanadaBuys Contract History only",
+  "ingested_at_utc": "2026-09-21T05:25:28+00:00",
+  "bronze_contract": {
+    "raw_value_policy": "all 91 source fields preserved as strings",
+    "empty_value_policy": "source empty strings preserved as empty strings",
+    "lineage_columns": [
+      "batch_id",
+      "source_dataset",
+      "source_file",
+      "source_row_number",
+      "ingested_at_utc",
+      "source_sha256"
+    ],
+    "mutation_policy": "immutable batch; existing batch directories are not overwritten"
+  },
+  "sources": {
+    "legacy": {
+      "rows": 485573,
+      "columns": 97,
+      "metadata_columns": [
+        "batch_id",
+        "source_dataset",
+        "source_file",
+        "source_row_number",
+        "ingested_at_utc",
+        "source_sha256"
+      ],
+      "source_columns": 91,
+      "checks": {
+        "row_count_matches_manifest": true,
+        "source_row_number_unique": true,
+        "source_row_number_contiguous": true,
+        "lineage_complete": true,
+        "source_header_preserved": true,
+        "first_source_row_preserved": true
+      },
+      "gate": "passed",
+      "source_id": "legacy_contract_history",
+      "source_file": "data/raw/legacy/contract_history_2009_2023_05.csv",
+      "source_sha256": "82200829b19449ca20dc56d1391bd08f03828aab47f2436592790118e6dd4def",
+      "bronze_file": "data/bronze/batch_id=canadabuys_contract_history_20260822_001/legacy.parquet",
+      "bronze_bytes": 48285395,
+      "bronze_sha256": "41d2acdb680c27eb629c9b58ff7df0b7f2b57149c6b449f98fee6e7d13047e99"
+    },
+    "current": {
+      "rows": 21274,
+      "columns": 97,
+      "metadata_columns": [
+        "batch_id",
+        "source_dataset",
+        "source_file",
+        "source_row_number",
+        "ingested_at_utc",
+        "source_sha256"
+      ],
+      "source_columns": 91,
+      "checks": {
+        "row_count_matches_manifest": true,
+        "source_row_number_unique": true,
+        "source_row_number_contiguous": true,
+        "lineage_complete": true,
+        "source_header_preserved": true,
+        "first_source_row_preserved": true
+      },
+      "gate": "passed",
+      "source_id": "current_contract_history",
+      "source_file": "data/raw/current/contract_history_2023_06_present.csv",
+      "source_sha256": "14792cd0437074b2868d02489bba3122544ada14152ba74930d506764caf7693",
+      "bronze_file": "data/bronze/batch_id=canadabuys_contract_history_20260822_001/current.parquet",
+      "bronze_bytes": 4396220,
+      "bronze_sha256": "d877c63dd5538fce13a933b451b8ead5bacc0d5f047c425de68abc82a2b4a1ee"
+    }
+  },
+  "total_rows": 506847,
+  "gate": "passed"
+}

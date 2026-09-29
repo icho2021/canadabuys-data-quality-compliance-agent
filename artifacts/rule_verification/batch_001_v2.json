@@ -1,0 +1,213 @@
+{
+  "fixture_rows_per_source": 4000,
+  "as_of_date": "2026-08-22",
+  "baseline_rule_counts": {
+    "negative_total_contract_value": 252,
+    "unexpected_currency": 0,
+    "missing_award_date": 69345,
+    "invalid_award_date": 0,
+    "legacy_cutover_mismatch": 0,
+    "non_canonical_trade_agreements": 244613,
+    "postal_code_format_mismatch_canada": 826,
+    "negative_amount_unknown_activity": 19105,
+    "zero_contract_amount": 178398,
+    "invalid_contract_amount": 0,
+    "non_canonical_supplier_country": 37340,
+    "contract_amount_exceeds_total_value": 14686,
+    "missing_standardized_supplier_name": 31402,
+    "current_cutover_mismatch": 0,
+    "amendment_date_before_award_date": 368,
+    "end_date_before_start_date": 14,
+    "negative_amount_on_known_amendment": 845,
+    "unknown_amendment_type": 471328,
+    "unusually_distant_end_date": 53,
+    "future_amendment_date": 7,
+    "end_date_before_award_date": 148
+  },
+  "scenarios_total": 15,
+  "scenarios_passed": 15,
+  "scenarios_isolated": 13,
+  "results": [
+    {
+      "scenario": "checksum_mismatch",
+      "tier": "pipeline",
+      "targets": "MF-01",
+      "observed": {
+        "stage": "build_bronze.py",
+        "returncode": 1,
+        "detail": "ValueError: Checksum mismatch for /private/tmp/claude-501/faultinj/cases/checksum_mismatch/raw/legacy/contract_history.csv"
+      },
+      "passed": true
+    },
+    {
+      "scenario": "renamed_column",
+      "tier": "pipeline",
+      "targets": "PF-01 / MF-02",
+      "observed": {
+        "stage": "profile_contract_history.py",
+        "returncode": 1,
+        "detail": "KeyError: 'contractAmount-montantContrat'"
+      },
+      "passed": true
+    },
+    {
+      "scenario": "dropped_row",
+      "tier": "pipeline",
+      "targets": "MF-01",
+      "observed": {
+        "stage": "build_bronze.py",
+        "returncode": 1,
+        "detail": "ValueError: Checksum mismatch for /private/tmp/claude-501/faultinj/cases/dropped_row/raw/legacy/contract_history.csv"
+      },
+      "passed": true
+    },
+    {
+      "scenario": "manifest_row_count_mismatch",
+      "tier": "pipeline",
+      "targets": "MF-04",
+      "observed": {
+        "stage": "build_bronze.py",
+        "returncode": 1,
+        "detail": "ValueError: Row count differs from approved profile: legacy"
+      },
+      "passed": true
+    },
+    {
+      "scenario": "legacy_cutover_violation",
+      "tier": "pipeline",
+      "targets": "PF-04",
+      "observed": {
+        "stage": "profile_contract_history.py",
+        "returncode": 0,
+        "gate": "failed",
+        "failed": [
+          "legacy_cutover_respected"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "scenario": "duplicate_version_key",
+      "tier": "pipeline",
+      "targets": "PF-06",
+      "observed": {
+        "stage": "profile_contract_history.py",
+        "returncode": 0,
+        "gate": "passed",
+        "quarantine": "candidate_version_key_duplicates",
+        "duplicates": 1
+      },
+      "passed": true
+    },
+    {
+      "scenario": "invalid_award_date",
+      "tier": "rule",
+      "targets": "invalid_award_date",
+      "observed": {
+        "rules_that_moved": {
+          "invalid_award_date": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    },
+    {
+      "scenario": "invalid_contract_amount",
+      "tier": "rule",
+      "targets": "invalid_contract_amount",
+      "observed": {
+        "rules_that_moved": {
+          "invalid_contract_amount": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    },
+    {
+      "scenario": "current_cutover_mismatch",
+      "tier": "rule",
+      "targets": "current_cutover_mismatch",
+      "observed": {
+        "rules_that_moved": {
+          "current_cutover_mismatch": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    },
+    {
+      "scenario": "legacy_cutover_mismatch",
+      "tier": "rule",
+      "targets": "legacy_cutover_mismatch",
+      "observed": {
+        "rules_that_moved": {
+          "end_date_before_award_date": 1,
+          "legacy_cutover_mismatch": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": false
+    },
+    {
+      "scenario": "unexpected_currency",
+      "tier": "rule",
+      "targets": "unexpected_currency",
+      "observed": {
+        "rules_that_moved": {
+          "unexpected_currency": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    },
+    {
+      "scenario": "negative_total_contract_value",
+      "tier": "rule",
+      "targets": "negative_total_contract_value",
+      "observed": {
+        "rules_that_moved": {
+          "contract_amount_exceeds_total_value": 1,
+          "negative_total_contract_value": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": false
+    },
+    {
+      "scenario": "end_date_before_start_date",
+      "tier": "rule",
+      "targets": "end_date_before_start_date",
+      "observed": {
+        "rules_that_moved": {
+          "end_date_before_start_date": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    },
+    {
+      "scenario": "unusually_distant_end_date",
+      "tier": "rule",
+      "targets": "unusually_distant_end_date",
+      "observed": {
+        "rules_that_moved": {
+          "unusually_distant_end_date": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    },
+    {
+      "scenario": "non_canonical_supplier_country",
+      "tier": "rule",
+      "targets": "non_canonical_supplier_country",
+      "observed": {
+        "rules_that_moved": {
+          "non_canonical_supplier_country": 1
+        }
+      },
+      "passed": true,
+      "only_target_moved": true
+    }
+  ]
+}
